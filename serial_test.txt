@@ -1,0 +1,21 @@
+Steps to Achieve Serial Communication Between Jetson Nano and Raspberry Pi
+Hardware Setup:
+
+Connect the Jetson Nano and Raspberry Pi using a USB-to-serial cable or a direct USB connection.
+Ensure the devices are properly powered and connected.
+Install Required Libraries:
+
+On both devices, install the pyserial library:
+Identify Serial Ports:
+
+On both devices, identify the serial port using the command:
+Note the port names (e.g., /dev/ttyUSB0).
+Write the Code:
+
+Create two Python scripts:
+One for the Jetson Nano to send data.
+One for the Raspberry Pi to receive and print data.
+Run the Scripts:
+
+Start the receiver script on the Raspberry Pi first.
+Then, run the sender script on the Jetson Nano.
